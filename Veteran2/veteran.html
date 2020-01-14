@@ -1,0 +1,157 @@
+<!DOCTYPE HTML>
+<html lang="cs">
+  <head>
+  <meta http-equiv="content-type" content="text/html">
+  <meta name="generator" content="PSPad editor, www.pspad.com">
+  <title>Veteran_Vizovice-uvodni_strana</title>
+  <link href="css/all.css" rel="stylesheet">   
+  <link href="https://fonts.googleapis.com/css?family=Great+Vibes&display=swap" rel="stylesheet">  
+ 
+  <style>
+  
+        body{
+            background-image: url("obrazky/poz.jpg");
+            background-color: black;   
+            background-repeat: no-repeat;
+            background-size: 95%; 
+            background-position: top center;
+        }
+        header, section, footer{ width: 70%;
+                                 margin: auto;
+        }
+        
+        .header{
+            grid-area:header;
+        }
+        
+        .nav{
+            grid-area:nav;
+        }
+        
+        .main{
+            grid-area:main;
+            background-color:#bababa;
+            border-radius: 7px;  
+            position: relative;
+            top: 104px;
+            text-align:center;
+        }
+        
+        .footer{
+            grid-area:footer;
+        }
+        
+        .right{
+            grid-area:right;
+        }
+        
+        .left{
+            grid-area:left;
+        }
+        
+        .grid-container{
+			display: grid;
+			grid-template-areas: 
+				'header header header'
+                'nav nav nav'
+				'left main right'
+				'left footer right' ;
+            grid-gap: 3px;  
+			font-size: 18px;
+            grid-template-columns:200px auto 200px;
+			font-family: "Segoe UI",Arial,sans-serif;
+            }
+  
+       h1{  text-align: center;
+            font-size: 65px;
+            margin:0;
+            padding-bottom: 8px;
+            padding-top: 4px;
+            background-image: url("obrazky/poza2.jpg");
+            border-radius: 7px;
+            font-family: 'Great Vibes', cursive;
+       }  
+             
+       .nav nav{
+            text-align: center;
+            background-color:#bababa;
+            border-radius: 7px;
+       }
+
+       .main section p a{
+            text-decoration: none;
+       }
+       
+       .nav nav a{
+             text-decoration: none;
+             padding-left: 20px;
+             padding-right: 20px;   
+       } 
+       
+       footer{
+            text-align: center ; 
+            color: black;
+            font-size:12px;
+       }  
+       .hore{
+            position:fixed;
+            top:0;
+            z-index:100;
+            left:15%;
+       }
+       .img{
+            text-align: center;
+            padding-top:8px;
+       }
+       .news{
+            background-color:#aec5eb;
+            border-radius: 7px;
+       }
+      
+  </style>
+   </head>
+  <body>
+  <div class="grid-container">
+    <header class="hore">
+    <div class="header">
+        
+            <h1>Veterán Vizovice</h1>
+        
+    </div> 
+    <div class="nav">   
+        <nav>
+            <a href=""> ÚVODNÍ STRÁNKA </a>
+            <a href="gal/vet.galrie.html"> DOKONÈENÉ VOZY </a>
+            <a href="vet.ren.cen.html"> RENOVACE A CENY </a>
+            <a href="vet.kont..html"> KONTAKTY </a>
+        </nav>      
+    </div>
+    </header>
+    <div class="main">
+        <section>      
+            <img src="obrazky/skoda-pozadi1.jpg" class="img" alt="Škoda 100">
+            <h3>Kvalita, vzhled a charisma </h3>
+            <p> Nejvýstižnìjší slova popisující nádherné stroje, které se dosud dochovaly.</p>
+            <p> Již od roku 2001 máme praxi s veterány a jejich renovacemi èi opravami.</p>
+            <p> Vznikli jsem tak, že se sešlo pár nadšencù do starých aut a èasem z toho vznikla firma.</p>
+            <img src="obrazky/skoda-pozadi3.jpg" class="img" alt="Škoda 1202">
+            <p> Nabízíme služby od jednoduchých oprav po kompletní renovace. Na ukázku naší práce se podívejte do sekce <a href="gal/vet.galrie.html"> DOKONÈENÉ VOZY</a></p>
+        </section> 
+        <section class="news">
+            <h3>! NOVINKY !</h3>
+            <h4> 3.4. 2019</h4>
+            <p> Až do odvolání bohužel nemùžeme pøijímat další zákazníky. Máme dost práce a nebylo by fér pøijímat další zákazníky. Nechceme jít dolù s kvalitou.</p>
+            <p> Dìkujeme za pochopení </p>
+        </section> 
+      
+     <div class="footer">   
+        <footer> 
+        <p> Aktualizováno dne 2.1. 2020. </p>
+        </footer>
+    </div>
+    </div>
+    <div class="left"></div>
+    <div class="right"></div>
+    </div>
+  </body>
+</html>
